@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(215, 246, 246, 0.486);
+}
+/* ######################### MAIN NAV BAR #################### */
+.mainNavbar{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+}
+/* #################### LOGO ###################### */
+
+.navLogo{
+    /* border: 1px solid purple; */
+    width: 200px;
+}
+
+/* ############################ NAV BAR CENTER ########################## */
+.nav-bar{
+    /* border: 1px solid red; */
+    width: 500px;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-bar ul li{
+    list-style: none;
+    text-decoration: none;
+    background-color: rgba(215, 246, 246, 0.486);
+    box-shadow: 5px 5px rgb(190, 188, 188);
+    padding-left: 5px ;
+    padding-right: 5px;
+    border-radius: 3px;
+
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* ######################### LOGIN BTN ############################## */
+.loginBtn{
+    /* border: 1px solid green; */
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(190, 188, 188);
+    background-color: rgba(215, 246, 246, 0.486);
+}
+.loginBtn a{
+    text-decoration: none;
+    color: black;
+}
