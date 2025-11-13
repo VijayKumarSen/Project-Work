@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(215, 246, 246, 0.486);
+}
+.navBar{
+    border: 1px solid green;
+    height: 20vh;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    height: 5vh;
+    width: 80vh;
+    margin-top: 2vh;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: none;
+}
+::placeholder{
+    font: 1em sans-serif;
+    font-weight: bold;
+}
+.mainContainer{
+    border: 1px solid black;
+    height: 100vh;  
+    width: 100vw;
+    display: flex;
+}
+.leftContainer{
+    border: 1px solid red;
+    height: 100vh;
+    width: 80vw;
+    float: left;
+    overflow: scroll;
+    scrollbar-width: none;  
+}
+.rightContainer{
+    border: 1px solid blue;
+    height: 100vh;
+    width: 20vw;
+    float: right;
+}
+.box{
+    border: 1px purple solid;
+    height: 350px;
+    width: 350px;
+    margin: 10px;
+    float: left;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#bookNow{
+    width: 100%;
+    height: 15%;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px rgb(190, 188, 188);
+    background-color: rgba(245, 194, 100, 0.856);
+}
+
+img{
+    height: 80%;
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid black;
+   
+}      
+
